@@ -1,0 +1,17 @@
+#include "holberton.h"
+/**
+* _islower - Print the alphabet in lowercase.
+*
+* Return: 0 or 1 if variable c is uppercase or is lowercase character respectively.
+*/
+int _islower(int c)
+{
+if (c >= 97 && c <= 122)
+{
+return (1);
+}
+else
+{
+return (0);
+}
+}
